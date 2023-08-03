@@ -1,6 +1,6 @@
 # 0x07. Networking basics #0
 
-## Learning Objectivies
+## Learning Objectivies :page_with_curl:
 
 ### OSI Model
 * What it is
@@ -29,7 +29,7 @@
 * Memorize SSH, HTTP and HTTPS port numbers
 * What tool/protocol is often used to check if a device is connected to a network
 
-## Tasks
+## Tasks :woman_technologist:
 
 * Task 0 - Questions:
     - What is the OSI model?
