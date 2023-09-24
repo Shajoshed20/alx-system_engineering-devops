@@ -1,0 +1,8 @@
+# Configure ssh client for school
+Host school
+    HostName 52.91.135.249
+    User ubuntu
+    GSSAPIAuthentication yes
+    GSSAPIDelegateCredentials no
+    IdentityFile ~/.ssh/school
+    PasswordAuthentication no
