@@ -6,11 +6,11 @@ sudo apt-get -y install haproxy
 
 server_config=\
 "
-frontend  ugo-frontend
+ffrontend ugoalx-frontend
         bind *:80
         mode http
-        default_backend ugo-backend
-backend ugo-backend
+        default_backend ugoalx-backend
+backend ugoalx-backend
         balance roundrobin
         server 294522-web-01 52.91.135.249:80 check
         server 294522-web-02 52.23.244.198:80 check
