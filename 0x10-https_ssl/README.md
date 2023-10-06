@@ -13,4 +13,4 @@
 * Task 1 - “Terminating SSL on HAproxy” means that HAproxy is configured to handle encrypted traffic, unencrypt it and pass it on to its destination.
     Create a certificate using certbot and configure HAproxy to accept encrypted traffic for your subdomain www..
 
-* Task 0 - 
+* Task 2 - A good habit is to enforce HTTPS traffic so that no unencrypted traffic is possible. Configure HAproxy to automatically redirect HTTP traffic to HTTPS.
