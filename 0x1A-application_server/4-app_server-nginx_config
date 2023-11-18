@@ -40,6 +40,11 @@ server {
         location / {
             proxy_pass http://127.0.0.1:5003/2-hbnb;
         }
+        # Serve API on AirBnB_clone_v3
+        location /api {
+        proxy_pass http://127.0.0.1:5002/api;
+        }
+
         server_name _;
 
         location /404 {
